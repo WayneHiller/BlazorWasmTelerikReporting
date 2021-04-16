@@ -1,0 +1,22 @@
+﻿@page "/"
+@using Telerik.ReportViewer.Blazor
+
+<h1>Report</h1>
+
+<ReportViewer ViewerId="rv1"
+              ServiceUrl="/reports"
+              ReportSource="@Source"
+              ScaleMode="@(ScaleMode.Specific)"
+              Scale="1.0">
+</ReportViewer>
+
+@code {
+    private ReportSourceOptions Source => new ReportSourceOptions
+    {
+        Report = "APL Request.trdp",
+        Parameters = new Dictionary<string, object>
+            {
+                { "pSendMessageID", "318E9428-BA98-EB11-9707-004E01BA9490" }
+            }
+    };
+}

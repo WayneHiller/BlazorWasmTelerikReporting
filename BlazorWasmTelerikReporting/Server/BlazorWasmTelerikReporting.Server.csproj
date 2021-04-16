@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="5.0.5" />
+	  <PackageReference Include="Telerik.Reporting.OpenXmlRendering" Version="15.0.21.326" />
+	  <PackageReference Include="Telerik.Reporting.Services.AspNetCore" Version="15.0.21.326" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Client\BlazorWasmTelerikReporting.Client.csproj" />
+    <ProjectReference Include="..\Shared\BlazorWasmTelerikReporting.Shared.csproj" />
+  </ItemGroup>
+
+
+</Project>

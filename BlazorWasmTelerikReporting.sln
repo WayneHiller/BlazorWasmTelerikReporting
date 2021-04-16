@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmTelerikReporting.Server", "BlazorWasmTelerikReporting\Server\BlazorWasmTelerikReporting.Server.csproj", "{2ECFED1E-42FB-48C1-9DC0-CFF522A0FC76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmTelerikReporting.Client", "BlazorWasmTelerikReporting\Client\BlazorWasmTelerikReporting.Client.csproj", "{B4329518-FBF2-48BF-A671-5EED00D2E6FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmTelerikReporting.Shared", "BlazorWasmTelerikReporting\Shared\BlazorWasmTelerikReporting.Shared.csproj", "{3226BC72-6DA3-4B2F-9DE9-C69E509ADB31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2ECFED1E-42FB-48C1-9DC0-CFF522A0FC76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ECFED1E-42FB-48C1-9DC0-CFF522A0FC76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ECFED1E-42FB-48C1-9DC0-CFF522A0FC76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ECFED1E-42FB-48C1-9DC0-CFF522A0FC76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4329518-FBF2-48BF-A671-5EED00D2E6FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4329518-FBF2-48BF-A671-5EED00D2E6FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4329518-FBF2-48BF-A671-5EED00D2E6FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4329518-FBF2-48BF-A671-5EED00D2E6FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3226BC72-6DA3-4B2F-9DE9-C69E509ADB31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3226BC72-6DA3-4B2F-9DE9-C69E509ADB31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3226BC72-6DA3-4B2F-9DE9-C69E509ADB31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3226BC72-6DA3-4B2F-9DE9-C69E509ADB31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8952E85-A3ED-438F-9C31-AB838572F24F}
+	EndGlobalSection
+EndGlobal
