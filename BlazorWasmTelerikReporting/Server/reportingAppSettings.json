@@ -1,0 +1,8 @@
+{
+  "ConnectionStrings": {
+    "APL": {
+      "connectionString": "Data Source=.\\DEVELOPMENT;Integrated Security=true",
+      "providerName": "System.Data.SqlClient"
+    }
+  }
+}
